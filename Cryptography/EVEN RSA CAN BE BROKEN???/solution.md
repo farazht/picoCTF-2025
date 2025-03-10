@@ -1,3 +1,5 @@
+## EVEN RSA CAN BE BROKEN???
+
 In this challenge, we're given a script called `encrypt.py`, and a server which runs the script and gives us the output. The script is as follows:
 
 ```python
@@ -44,7 +46,7 @@ e: 65537
 cyphertext: 14081377010238412082456693428860331885996760832113646341505686078787763394857283042098225924264012674754370194336100511650315050593559436515896344596305385
 ```
 
-Taking a look at `N`, we can see that it's actually divisible by 2, meaning the prime factors of `N` are `2` and `N/2`. This is a huge vulnerability in the RSA encryption scheme, as we can easily factorize `N` and find the private key `d`. We can then decrypt the flag using the private key.
+Taking a look at `N`, we can see that it's actually an even number, meaning the prime factors of `N` are `2` and `N/2`. This is a huge vulnerability in the RSA encryption scheme, as we can easily factorize `N` and find the private key `d`. We can then decrypt the flag using the private key.
 
 ```python
 def long_to_bytes(n):

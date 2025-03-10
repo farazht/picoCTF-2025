@@ -1,10 +1,12 @@
+## RED
+
 The first thing I did with the image was open it in an image editor to see if every pixel was truly the same color - it wasn't. 
 
 Then, I checked the metadata, which revealed a cryptic message:
 
 > Crimson heart, vibrant and bold, Hearts flutter at your sight. Evenings glow softly red, Cherries burst with sweet life. Kisses linger with your warmth. Love deep as merlot. Scarlet leaves falling softly, Bold in every stroke.
 
-After concerningly long, we found out that the first letter of each sentence spelled out "CHECK LSB". Even though this was what I was already trying to do, it was reassuring to know that I wasn't wasting my time.
+After a concerningly time of thinking this was just a distraction, we found out that the first letter of each sentence spelled out "CHECK LSB". Even though this was exactly what I was already doing, it was reassuring to know that I wasn't wasting my time.
 
 Using Python's `PIL` library, I wrote a script to extract the least significant bit of each pixel in the image, from all four of the RGBA channels. Since every row was the same, I only needed to check the first row. After concatenating the bits, I converted them from binary to ASCII to get the following base64 encoded string:
 

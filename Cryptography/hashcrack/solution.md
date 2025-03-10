@@ -1,3 +1,5 @@
+## hashcrack
+
 This puzzle was mostly about identifying the type of hash, then feeding it to a hash cracker. None of the passwords were particularly unique, so they were easy to crack. I used [hashcat](https://hashcat.net/hashcat/) to crack the hashes.
 
 The first hash was 32 characters, which made MD5 the most likely candidate. The second was 40 characters, which made SHA-1 the most likely candidate. The third was 64 characters, which made SHA-256 the most likely candidate. 
