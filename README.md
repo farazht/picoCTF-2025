@@ -44,7 +44,7 @@ picoCTF 2025 was held between Mar 7, 2025 and Mar 17, 2025.
 | Web Exploitation    | Apriti sesamo                   | 300    | [Link](./Web%20Exploitation/Apriti%20sesamo/solution.md) |
 | Cryptography        | Guess My Cheese (Part 2)        | 300    | Unsolved |
 | Binary Exploitation | Echo Valley                     | 300    | Unsolved |
-| Web Exploitation    | Pachinko                        | 300    | [Link](./Web%20Exploitation/Pachinko/solution.md) |
+| Web Exploitation    | Pachinko                        | 300    | **Solved, Missing** |
 | Reverse Engineering | perplexed                       | 400    | Unsolved |
 | Binary Exploitation | handoff                         | 400    | Unsolved |
 | Cryptography        | ChaCha Slide                    | 400    | Unsolved |
