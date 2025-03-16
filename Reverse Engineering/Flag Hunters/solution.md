@@ -1,28 +1,30 @@
-## Background
+## Flag Hunters
+
+### Background
 
 Reading through the program source provided there are several important pieces of syntax used in the song data:
 
-### REFRAIN
+#### REFRAIN
 
 This command causes an immediate jump to the song location labeled [REFRAIN].
 
-### RETURN `line: integer`
+#### RETURN `line: integer`
 
 This command causes an immediate jump to line `i`.
 
-### CROWD `_: any`
+#### CROWD `_: any`
 
 This command requests user input `data`, then replaces itself with `Crowd: <data>`.
 
-### END
+#### END
 
 This command immediately halts the song.
 
-### ;
+#### ;
 
 If present on any line, the semicolon will split the song line at its location, effectively treating one line as several.
 
-## Solution
+### Solution
 
 Because the `CROWD` command causes user input to be directly inserted into the song data, it can be exploited to add arbitrary commands to the execution flow. Prefixing a `;` to the user input results in the resulting line `Crowd: ;<data>`, which gives us the ability to use whatever commands we like. In this case, we want to somehow get the program to print the beginning of the song.
 

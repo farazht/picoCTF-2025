@@ -1,3 +1,5 @@
+## FANTASY CTF
+
 Simple tutorial exercise, I just followed a few instructions after connecting to the program with netcat, and got the flag.
 
 `nc verbal-sleep.picoctf.net 55628`

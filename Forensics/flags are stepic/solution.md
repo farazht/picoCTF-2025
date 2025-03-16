@@ -19,4 +19,33 @@ print(data)
 > picoCTF{fl4g_h45_fl4g1a2a9157}
 ```
 
-I can see why people didn't like this one.
+Oh, okay.
+
+Let's take a look at `stepic`'s `decode` function to see why that worked.
+
+```python
+def decode(image):
+    '''Extracts data from an image'''
+
+    _validate_image(image)
+    return ''.join(decode_imdata(image.getdata()))
+
+def decode_imdata(imdata):
+    '''Given a sequence of pixels, returns an iterator of characters encoded in the image'''
+
+    imdata = iter(imdata)
+    while True:
+        pixels = list(imdata.__next__()[:3] + imdata.__next__()[:3] + imdata.__next__()[:3])
+        byte = 0
+        for c in range(7):
+            byte |= pixels[c] & 1
+            byte <<= 1
+        byte |= pixels[7] & 1
+        yield chr(byte)
+        if pixels[-1] & 1:
+            break
+```
+
+The `decode` function iterates over the image's pixel data and extracts the least significant bit of each color channel. 
+
+I can see why people didn't like this one. It's quite similar to [RED](../RED/solution.md).
