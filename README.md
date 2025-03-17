@@ -25,7 +25,7 @@ picoCTF 2025 was held between Mar 7, 2025 and Mar 17, 2025.
 | Web Exploitation    | n0s4n1ty 1                      | 100    | [Link](./Web%20Exploitation/n0s4n1ty%201/solution.md) |
 | Binary Exploitation | hash-only-1                     | 100    | [Link](./Binary%20Exploitation/hash-only-1/solution.md) |
 | Web Exploitation    | SSTI1                           | 100    | [Link](./Web%20Exploitation/SSTI1/solution.md) |
-| Reverse Engineering | Binary Instrumentation 1        | 200    | Unsolved |
+| Reverse Engineering | Binary Instrumentation 1        | 200    | **Solved, Missing** |
 | Forensics           | Bitlocker-1                     | 200    | [Link](./Forensics/Bitlocker-1/solution.md) |
 | Forensics           | Event-Viewing                   | 200    | [Link](./Forensics/Event-Viewing/solution.md) |
 | Reverse Engineering | Tap into Hash                   | 200    | **Solved, Missing** |
@@ -38,8 +38,8 @@ picoCTF 2025 was held between Mar 7, 2025 and Mar 17, 2025.
 | Web Exploitation    | 3v@l                            | 200    | [Link](./Web%20Exploitation/3v%40l/solution.md) |
 | Web Exploitation    | SSTI2                           | 200    | **Solved, Missing** |
 | Binary Exploitation | hash-only-2                     | 200    | [Link](./Binary%20Exploitation/hash-only-2/solution.md) |
-| Binary Exploitation | PIE TIME 2                      | 200    | Unsolved |
-| Reverse Engineering | Binary Instrumentation 2        | 300    | Unsolved |
+| Binary Exploitation | PIE TIME 2                      | 200    | **Solved, Missing** |
+| Reverse Engineering | Binary Instrumentation 2        | 300    | **Solved, Missing** |
 | Forensics           | Bitlocker-2                     | 300    | Unsolved |
 | Web Exploitation    | Apriti sesamo                   | 300    | [Link](./Web%20Exploitation/Apriti%20sesamo/solution.md) |
 | Cryptography        | Guess My Cheese (Part 2)        | 300    | Unsolved |
