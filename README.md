@@ -9,7 +9,7 @@ picoCTF 2025 was held between Mar 7, 2025 and Mar 17, 2025.
 ## Writeups
 
 | Category            | Challenge                       | Points | Writeup |
-|---------------------|---------------------------------|--------|---------|
+|---------------------|---------------------------------| :----: | :-----: |
 | General Skills      | FANTASY CTF                     | 10     | [Link](./General%20Skills/FANTASY%20CTF/solution.md) |
 | Forensics           | Ph4nt0m 1ntrud3r                | 50     | [Link](./Forensics/Ph4nt0m%201ntrud3r/solution.md) |
 | Web Exploitation    | Cookie Monster Secret Recipe    | 50     | [Link](./Web%20Exploitation/Cookie%20Monster%20Secret%20Recipe/solution.md) |
