@@ -1,3 +1,5 @@
+# Reversing the algorithm in block_chain.py
+
 import hashlib
 
 def xor_bytes(a, b):
